@@ -1,0 +1,20 @@
+.about-us {
+    padding: 4rem;
+    background: #fff;
+}
+
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+p {
+    padding: 10px;
+}
