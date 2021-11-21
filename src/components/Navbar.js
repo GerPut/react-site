@@ -29,7 +29,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        SSPA <i className="fab fa-typo3" id=""></i>
+                        <img src="/sspalogo.png" alt="" height={60} width={80} />
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fa fa-bars'} />
@@ -47,20 +47,20 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link to="/products" className="nav-links" onClick={closeMobileMenu}>
-                                Products
+                                About
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
-                                Sign Up
+                                Contact
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Sign UP</Button>}
+                    {button && <Button buttonStyle='btn--outline'>Contact</Button>}
                 </div>
             </nav>
         </>
     )
 }
 
-export default Navbar
+export default Navbar;
