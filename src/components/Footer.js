@@ -9,7 +9,6 @@ function Footer() {
                     SSPA is registered with:
                 </p>
                 <div className="footer-img">
-                    <img src="../images/saipa.jpeg" />
                 </div>
                 <div className="footer-contact">
                     <p>SS Professional Acounting (Pty) Ltd</p>
@@ -17,20 +16,12 @@ function Footer() {
                     <p>Email : 000000@0000.co.za</p>
                     <p>Mobile : 000 000 0000</p>
                 </div>
-            </section>
-            <div class='footer-links'>
-
-
-            </div>
-            <section class='social-media'>
-                <div class='social-media-wrap'>
-                    <div class='footer-logo'>
-                        <div className='social-logo'>
-                            <p>Stephan Smith</p>
-                            <p>(SAIPA No:17366)</p>
-                            <p>(BCompt UNISA)</p>
-                        </div>
-                    </div>
+                <div className="footer-contact">
+                    <p>Stephan Smith</p>
+                    <p>(SAIPA No:17366)</p>
+                    <p>(BCompt UNISA)</p>
+                </div>
+                <div className="footer-contact">
                     <div class='social-icons'>
                         <div
                             className='social-icon-link instagram'
@@ -67,7 +58,7 @@ function Footer() {
                     </div>
                 </div>
             </section>
-            <div>
+            <div class='footer-links'>
                 <small class='website-rights'>Developed by coderg 2021</small>
             </div>
         </div>
