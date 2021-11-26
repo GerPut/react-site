@@ -23,32 +23,56 @@
   align-items: center;
 }
 
-.services-container {
+.services-page-container {
   margin: 30px;
   max-width: 600px;
+  padding: 15px;
   border-radius: 15px;
   background: #fff;
-  box-shadow: 10px 10px 40px grey,
+  box-shadow: 10px 10px 20px grey,
     -20px -20px 60px #f1f1f1;
 }
 
+/* End */
+
+/* About */
+
+.about {
+  color: #000;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-page-container {
+  margin: 30px;
+  max-width: 600px;
+  padding: 15px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 10px 10px 20px grey,
+    -20px -20px 60px #f1f1f1;
+}
 
 /* End */
 
-.products {
-  background-image: url('./images/img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.contact {
+  color: #000;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.sign-up {
-  background-image: url('./images/img-3.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.contact-us-page-container {
+  margin: 30px;
+  max-width: 600px;
+  padding: 15px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 10px 10px 20px grey,
+    -20px -20px 60px #f1f1f1;
 }

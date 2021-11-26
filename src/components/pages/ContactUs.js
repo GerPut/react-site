@@ -1,11 +1,11 @@
 import React from "react";
 import '../../App.css'
 
-export default function Services() {
+export default function ContactUs() {
     return (
-        <div className="services">
-            <h1 >Services</h1>
-            <div className="services-page-container">
+        <div className="contact">
+            <h1 className="about">Contact</h1>
+            <div className="contact-us-page-container">
                 <p>Hello</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, sint dolorum labore neque laudantium sequi beatae amet et consectetur temporibus.</p>
                 <ul>
