@@ -1,12 +1,12 @@
 import React from "react";
 import '../../App.css'
 
-export default function Products() {
+export default function AboutPage() {
     return (
         <div className="services">
-            <h1 className="about">About</h1>
+            <h1>About</h1>
             <div className="about-page-container">
-                <p>Hello</p>
+                <p>about</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, sint dolorum labore neque laudantium sequi beatae amet et consectetur temporibus.</p>
                 <ul>
                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, quam?</li>

@@ -5,7 +5,7 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.home, .products, .sign-up {
+.home {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -58,6 +58,8 @@
 
 /* End */
 
+/* ContactUs Page */
+
 .contact {
   color: #000;
   font-size: 1rem;
@@ -76,3 +78,5 @@
   box-shadow: 10px 10px 20px grey,
     -20px -20px 60px #f1f1f1;
 }
+
+/* End */

@@ -4,9 +4,9 @@ import '../../App.css'
 export default function Services() {
     return (
         <div className="services">
-            <h1 >Services</h1>
+            <h1>Services</h1>
             <div className="services-page-container">
-                <p>Hello</p>
+                <p>G</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, sint dolorum labore neque laudantium sequi beatae amet et consectetur temporibus.</p>
                 <ul>
                     <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, quam?</li>
